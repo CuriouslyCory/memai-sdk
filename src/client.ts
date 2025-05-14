@@ -248,8 +248,12 @@ export class MemClient {
    * @param payload The {@link MemItPayload} containing the input and instructions.
    * @returns A Promise that resolves to a {@link ClientMemItResponse} object,
    *          detailing the operations performed by Mem (e.g., note created, existing note updated).
-   * @throws {MemApiErrorClass} and its subclasses (e.g., {@link BadRequestError}, {@link RateLimitError})
-   *         if the API request fails.
+   * @throws {MemApiErrorClass} and its subclasses if the API request fails.
+   * @throws {BadRequestError} if the request payload is malformed.
+   * @throws {UnauthorizedError} if the API key is invalid or missing.
+   * @throws {ForbiddenError} if the API key does not have permission for the operation.
+   * @throws {RateLimitError} if the request is rate limited.
+   * @throws {ServerError} if the Mem API encounters an internal server error.
    * @see {@link https://docs.mem.ai/api-reference/mem-it/mem-it | Mem It API Documentation}
    *
    * @example
@@ -272,8 +276,12 @@ export class MemClient {
    *                and optional instructions for auto-organization or formatting.
    * @returns A Promise that resolves to a {@link CreateNoteResponse} object,
    *          which includes the created note's ID, content, title, URL, and operations performed.
-   * @throws {MemApiErrorClass} and its subclasses (e.g., {@link BadRequestError}, {@link RateLimitError})
-   *         if the API request fails.
+   * @throws {MemApiErrorClass} and its subclasses if the API request fails.
+   * @throws {BadRequestError} if the request payload is malformed (e.g., invalid content).
+   * @throws {UnauthorizedError} if the API key is invalid or missing.
+   * @throws {ForbiddenError} if the API key does not have permission for the operation.
+   * @throws {RateLimitError} if the request is rate limited.
+   * @throws {ServerError} if the Mem API encounters an internal server error.
    * @see {@link https://docs.mem.ai/api-reference/notes/create-note | Create Note API Documentation}
    *
    * @example
@@ -297,8 +305,12 @@ export class MemClient {
    *          The Mem API returns a 200 OK with operation details upon successful deletion,
    *          which this client maps to a void Promise for simplicity in this specific method.
    * @throws {BadRequestError} if the provided `id` is not a non-empty string.
-   * @throws {MemApiErrorClass} and its subclasses (e.g., {@link NotFoundError}, {@link RateLimitError})
-   *         if the API request fails (e.g., note not found, rate limited).
+   * @throws {MemApiErrorClass} and its subclasses if the API request fails.
+   * @throws {NotFoundError} if a note with the given `id` does not exist.
+   * @throws {UnauthorizedError} if the API key is invalid or missing.
+   * @throws {ForbiddenError} if the API key does not have permission for the operation.
+   * @throws {RateLimitError} if the request is rate limited.
+   * @throws {ServerError} if the Mem API encounters an internal server error.
    * @see {@link https://docs.mem.ai/api-reference/notes/delete-note | Delete Note API Documentation}
    *
    * @example

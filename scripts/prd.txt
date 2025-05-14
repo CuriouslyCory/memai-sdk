@@ -1,0 +1,33 @@
+Project Title: memai-sdk
+
+Overview:
+memai-sdk is a TypeScript SDK for the [mem.ai REST API](https://docs.mem.ai). It enables seamless integration with mem.ai, providing developers with a robust, type-safe, and ergonomic interface to interact with all available API endpoints.
+
+Features:
+- API Client
+  - Creates a client using the API key
+  - Functions to call all of the mem.ai API endpoints
+  - Gracefully handles rate limit errors
+- SDK Documentation
+  - Searchable documentation
+  - Chat with doc options for interactive help
+- MCP Server
+  - Provides instructions on how to use both the raw mem.ai REST API and the new TypeScript SDK
+
+Technical Requirements:
+- TypeScript
+- pnpm for package management
+- Integration with mem.ai REST API (Bearer token authentication)
+- Documentation site (searchable, chat-enabled)
+- MCP server for usage instructions
+
+Constraints / Out of Scope:
+- No client-side exposure of API keys
+- Only server-side usage of the SDK and API
+- No support for legacy mem.ai endpoints (only current documented endpoints)
+
+Success Criteria:
+- The SDK and MCP server are published to npmjs.com
+- The documentation site is hosted on Vercel and is fully functional
+- Users can search docs and interact with a chat assistant for help
+- All mem.ai API endpoints are accessible and handled gracefully (including rate limits)

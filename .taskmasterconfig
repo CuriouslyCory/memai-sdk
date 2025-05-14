@@ -3,18 +3,18 @@
     "main": {
       "provider": "google",
       "modelId": "gemini-2.5-flash-preview-04-17",
-      "maxTokens": 120000,
+      "maxTokens": 1000000,
       "temperature": 0.2
     },
     "research": {
-      "provider": "openai",
-      "modelId": "gemini-2.5-pro-exp-03-25",
-      "maxTokens": 8700,
+      "provider": "anthropic",
+      "modelId": "claude-3-7-sonnet-latest",
+      "maxTokens": 64000,
       "temperature": 0.1
     },
     "fallback": {
-      "provider": "anthropic",
-      "modelId": "claude-3.5-sonnet-20240620",
+      "provider": "ollama",
+      "modelId": "deepseek-r1:14b",
       "maxTokens": 120000,
       "temperature": 0.1
     }

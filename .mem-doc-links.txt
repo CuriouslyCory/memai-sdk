@@ -1,0 +1,13 @@
+## api ref
+
+https://docs.mem.ai/api-reference/overview/authentication
+https://docs.mem.ai/api-reference/overview/rate-limits
+https://docs.mem.ai/api-reference/overview/error-handling
+https://docs.mem.ai/api-reference/mem-it/mem-it
+https://docs.mem.ai/api-reference/notes/create-note
+https://docs.mem.ai/api-reference/notes/delete-note
+
+## guides
+https://docs.mem.ai/guides/get-started/quickstart
+https://docs.mem.ai/guides/use-cases/mem-it
+https://docs.mem.ai/guides/use-cases/create-note

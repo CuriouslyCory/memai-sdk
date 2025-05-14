@@ -18,7 +18,7 @@
     "build": "tsc",
     "clean": "rimraf dist",
     "dev": "tsc --watch",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test": "jest --experimental-vm-modules",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",

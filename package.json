@@ -18,7 +18,7 @@
     "build": "tsc",
     "clean": "rimraf dist",
     "dev": "tsc --watch",
-    "test": "jest --experimental-vm-modules",
+    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest",
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.26.0",
+    "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.15.18",
     "@typescript-eslint/eslint-plugin": "^8.32.1",

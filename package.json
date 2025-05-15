@@ -40,7 +40,7 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "packageManager": "pnpm@8.10.0",
+  "packageManager": "pnpm@9.15.4",
   "repository": {
     "type": "git",
     "url": "https://github.com/CuriouslyCory/memai-sdk.git"

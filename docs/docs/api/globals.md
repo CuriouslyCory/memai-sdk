@@ -1,3 +1,7 @@
+[**@curiouslycory/memai-sdk**](README.md)
+
+***
+
 # @curiouslycory/memai-sdk
 
 memai-sdk - TypeScript SDK for the mem.ai REST API

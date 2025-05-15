@@ -1,8 +1,14 @@
+[**@curiouslycory/memai-sdk**](../README.md)
+
+***
+
+[@curiouslycory/memai-sdk](../globals.md) / MemItResponse
+
 # Type Alias: MemItResponse
 
 > **MemItResponse** = `object`
 
-Defined in: [types.ts:190](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L190)
+Defined in: [types.ts:190](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L190)
 
 Response from the "Mem It" endpoint ([MemClient.memIt](../classes/MemClient.md#memit)).
 
@@ -16,7 +22,7 @@ Response from the "Mem It" endpoint ([MemClient.memIt](../classes/MemClient.md#m
 
 > **operations**: [`MemItOperation`](MemItOperation.md)[]
 
-Defined in: [types.ts:196](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L196)
+Defined in: [types.ts:196](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L196)
 
 An array of operations performed by Mem as a result of the request.
 
@@ -26,7 +32,7 @@ An array of operations performed by Mem as a result of the request.
 
 > **request\_id**: `string`
 
-Defined in: [types.ts:192](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L192)
+Defined in: [types.ts:192](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L192)
 
 A unique identifier for the API request.
 
@@ -36,6 +42,6 @@ A unique identifier for the API request.
 
 > **status**: `string`
 
-Defined in: [types.ts:194](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L194)
+Defined in: [types.ts:194](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L194)
 
 The overall status of the request (e.g., 'completed').

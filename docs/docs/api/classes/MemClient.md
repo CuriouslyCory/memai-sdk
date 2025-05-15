@@ -1,6 +1,12 @@
+[**@curiouslycory/memai-sdk**](../README.md)
+
+***
+
+[@curiouslycory/memai-sdk](../globals.md) / MemClient
+
 # Class: MemClient
 
-Defined in: [client.ts:50](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/client.ts#L50)
+Defined in: [client.ts:50](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/client.ts#L50)
 
 Main client class for the mem.ai API SDK.
 
@@ -32,7 +38,7 @@ main();
 
 > **new MemClient**(`apiKey`, `options`): `MemClient`
 
-Defined in: [client.ts:87](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/client.ts#L87)
+Defined in: [client.ts:87](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/client.ts#L87)
 
 Creates a new instance of the MemClient.
 
@@ -81,7 +87,7 @@ const clientWithOptions = new MemClient('YOUR_SECRET_API_KEY', {
 
 > **createMem**(`_options`): `Promise`\<`unknown`\>
 
-Defined in: [client.ts:348](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/client.ts#L348)
+Defined in: [client.ts:348](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/client.ts#L348)
 
 Creates a mem.
 
@@ -115,7 +121,7 @@ Always throws an error indicating deprecation.
 
 > **createNote**(`options`): `Promise`\<[`CreateNoteResponse`](../type-aliases/CreateNoteResponse.md)\>
 
-Defined in: [client.ts:296](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/client.ts#L296)
+Defined in: [client.ts:296](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/client.ts#L296)
 
 Creates a new note in Mem.
 
@@ -179,7 +185,7 @@ console.log("Created note:", note.title, note.url);
 
 > **deleteNote**(`id`): `Promise`\<`void`\>
 
-Defined in: [client.ts:331](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/client.ts#L331)
+Defined in: [client.ts:331](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/client.ts#L331)
 
 Deletes a note by its ID.
 
@@ -253,7 +259,7 @@ try {
 
 > **memIt**(`payload`): `Promise`\<[`MemItResponse`](../type-aliases/MemItResponse.md)\>
 
-Defined in: [client.ts:268](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/client.ts#L268)
+Defined in: [client.ts:268](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/client.ts#L268)
 
 Creates a mem using the "mem-it" endpoint.
 This endpoint is versatile and can accept various types of input (HTML, text, URLs)

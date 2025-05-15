@@ -1,6 +1,12 @@
+[**@curiouslycory/memai-sdk**](../README.md)
+
+***
+
+[@curiouslycory/memai-sdk](../globals.md) / RequestParams
+
 # Interface: RequestParams
 
-Defined in: [types.ts:60](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L60)
+Defined in: [types.ts:60](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L60)
 
 Internal representation of request parameters for making API calls.
 This type is primarily for internal SDK use.
@@ -11,7 +17,7 @@ This type is primarily for internal SDK use.
 
 > `optional` **body**: `string`
 
-Defined in: [types.ts:66](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L66)
+Defined in: [types.ts:66](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L66)
 
 The request body, typically a JSON string.
 
@@ -21,7 +27,7 @@ The request body, typically a JSON string.
 
 > **headers**: `Record`\<`string`, `string`\>
 
-Defined in: [types.ts:64](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L64)
+Defined in: [types.ts:64](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L64)
 
 A record of HTTP headers to include in the request.
 
@@ -31,7 +37,7 @@ A record of HTTP headers to include in the request.
 
 > **method**: [`HttpMethod`](../type-aliases/HttpMethod.md)
 
-Defined in: [types.ts:62](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L62)
+Defined in: [types.ts:62](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L62)
 
 The HTTP method to use for the request.
 
@@ -41,6 +47,6 @@ The HTTP method to use for the request.
 
 > `optional` **timeout**: `number`
 
-Defined in: [types.ts:68](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L68)
+Defined in: [types.ts:68](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L68)
 
 Request-specific timeout in milliseconds, overriding client default if provided.

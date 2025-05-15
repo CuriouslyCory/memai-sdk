@@ -1,6 +1,12 @@
+[**@curiouslycory/memai-sdk**](../README.md)
+
+***
+
+[@curiouslycory/memai-sdk](../globals.md) / MemOptions
+
 # Interface: MemOptions
 
-Defined in: [types.ts:14](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L14)
+Defined in: [types.ts:14](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L14)
 
 Configuration options for initializing the [MemClient](../classes/MemClient.md).
 These options allow customization of the client's behavior, such as retry logic and timeouts.
@@ -11,7 +17,7 @@ These options allow customization of the client's behavior, such as retry logic 
 
 > `optional` **baseUrl**: `string`
 
-Defined in: [types.ts:20](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L20)
+Defined in: [types.ts:20](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L20)
 
 The base URL for the Mem API.
 
@@ -28,7 +34,7 @@ You generally don't need to change this unless instructed by Mem support or for 
 
 > `optional` **maxRetries**: `number`
 
-Defined in: [types.ts:27](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L27)
+Defined in: [types.ts:27](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L27)
 
 The maximum number of times to retry a request if it fails due to transient issues
 (like network errors or rate limits).
@@ -45,7 +51,7 @@ The maximum number of times to retry a request if it fails due to transient issu
 
 > `optional` **retryDelay**: `number`
 
-Defined in: [types.ts:40](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L40)
+Defined in: [types.ts:40](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L40)
 
 The base delay in milliseconds for retrying requests.
 This delay will be increased exponentially for subsequent retries.
@@ -62,7 +68,7 @@ This delay will be increased exponentially for subsequent retries.
 
 > `optional` **timeout**: `number`
 
-Defined in: [types.ts:33](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L33)
+Defined in: [types.ts:33](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L33)
 
 The request timeout in milliseconds.
 

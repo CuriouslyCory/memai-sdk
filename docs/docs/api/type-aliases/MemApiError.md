@@ -1,8 +1,14 @@
+[**@curiouslycory/memai-sdk**](../README.md)
+
+***
+
+[@curiouslycory/memai-sdk](../globals.md) / MemApiError
+
 # Type Alias: MemApiError
 
 > **MemApiError** = `object`
 
-Defined in: [types.ts:75](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L75)
+Defined in: [types.ts:75](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L75)
 
 Represents an error response from the Mem API.
 
@@ -16,7 +22,7 @@ MemApiError for the error class thrown by the SDK.
 
 > `optional` **code**: `string`
 
-Defined in: [types.ts:83](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L83)
+Defined in: [types.ts:83](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L83)
 
 A Mem-specific error code, if available, providing more granular error information.
 
@@ -26,7 +32,7 @@ A Mem-specific error code, if available, providing more granular error informati
 
 > **error**: `string`
 
-Defined in: [types.ts:77](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L77)
+Defined in: [types.ts:77](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L77)
 
 A short string indicating the error type (e.g., 'invalid_request_error').
 
@@ -36,7 +42,7 @@ A short string indicating the error type (e.g., 'invalid_request_error').
 
 > **message**: `string`
 
-Defined in: [types.ts:79](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L79)
+Defined in: [types.ts:79](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L79)
 
 A human-readable message providing more details about the error.
 
@@ -46,6 +52,6 @@ A human-readable message providing more details about the error.
 
 > `optional` **status**: `number`
 
-Defined in: [types.ts:81](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L81)
+Defined in: [types.ts:81](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L81)
 
 The HTTP status code associated with the error, if available.

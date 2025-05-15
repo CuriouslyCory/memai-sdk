@@ -1,8 +1,14 @@
+[**@curiouslycory/memai-sdk**](../README.md)
+
+***
+
+[@curiouslycory/memai-sdk](../globals.md) / CreateNotePayload
+
 # Type Alias: CreateNotePayload
 
 > **CreateNotePayload** = `object`
 
-Defined in: [types.ts:215](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L215)
+Defined in: [types.ts:215](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L215)
 
 Payload for creating a new note directly ([MemClient.createNote](../classes/MemClient.md#createnote)).
 
@@ -27,7 +33,7 @@ const payload: CreateNotePayload = {
 
 > `optional` **add\_to\_collections**: `string`[]
 
-Defined in: [types.ts:219](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L219)
+Defined in: [types.ts:219](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L219)
 
 An array of collection titles or IDs to which the new note should be added.
 
@@ -37,7 +43,7 @@ An array of collection titles or IDs to which the new note should be added.
 
 > `optional` **apply\_template**: `string`
 
-Defined in: [types.ts:224](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L224)
+Defined in: [types.ts:224](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L224)
 
 The title or ID of a template to apply to the new note.
 
@@ -47,7 +53,7 @@ The title or ID of a template to apply to the new note.
 
 > `optional` **auto\_format**: `boolean` \| `string`
 
-Defined in: [types.ts:227](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L227)
+Defined in: [types.ts:227](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L227)
 
 If `true`, Mem attempts to automatically format the note.
 If a string, provides natural language instructions for formatting.
@@ -58,7 +64,7 @@ If a string, provides natural language instructions for formatting.
 
 > `optional` **auto\_organize**: `boolean` \| `string`
 
-Defined in: [types.ts:222](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L222)
+Defined in: [types.ts:222](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L222)
 
 If `true`, Mem attempts to automatically organize the note.
 If a string, provides natural language instructions for organization.
@@ -69,7 +75,7 @@ If a string, provides natural language instructions for organization.
 
 > **content**: `string`
 
-Defined in: [types.ts:217](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L217)
+Defined in: [types.ts:217](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L217)
 
 The content of the note, typically in Markdown format.
 
@@ -79,7 +85,7 @@ The content of the note, typically in Markdown format.
 
 > `optional` **created\_at**: `string`
 
-Defined in: [types.ts:229](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L229)
+Defined in: [types.ts:229](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L229)
 
 Optional timestamp (ISO 8601 format) for when the note was created, if different from the processing time.
 
@@ -89,6 +95,6 @@ Optional timestamp (ISO 8601 format) for when the note was created, if different
 
 > `optional` **updated\_at**: `string`
 
-Defined in: [types.ts:231](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L231)
+Defined in: [types.ts:231](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L231)
 
 Optional timestamp (ISO 8601 format) for when the note was last updated, if different from the processing time.

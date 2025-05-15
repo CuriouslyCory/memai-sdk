@@ -1,8 +1,14 @@
+[**@curiouslycory/memai-sdk**](../README.md)
+
+***
+
+[@curiouslycory/memai-sdk](../globals.md) / NoteAddedToCollectionOp
+
 # Type Alias: NoteAddedToCollectionOp
 
 > **NoteAddedToCollectionOp** = [`NoteOperationBase`](NoteOperationBase.md) & `object`
 
-Defined in: [types.ts:265](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L265)
+Defined in: [types.ts:265](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L265)
 
 Represents an operation where a note was added to a collection, as part of a Create Note response.
 

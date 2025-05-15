@@ -1,8 +1,14 @@
+[**@curiouslycory/memai-sdk**](../README.md)
+
+***
+
+[@curiouslycory/memai-sdk](../globals.md) / MemItPayload
+
 # Type Alias: MemItPayload
 
 > **MemItPayload** = `object`
 
-Defined in: [types.ts:131](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L131)
+Defined in: [types.ts:131](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L131)
 
 Payload for the "Mem It" endpoint ([MemClient.memIt](../classes/MemClient.md#memit)).
 This endpoint is versatile for sending various types of content to Mem.
@@ -28,7 +34,7 @@ const payload: MemItPayload = {
 
 > `optional` **context**: `string`
 
-Defined in: [types.ts:138](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L138)
+Defined in: [types.ts:138](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L138)
 
 Optional additional context to help Mem understand or categorize the input.
 
@@ -38,7 +44,7 @@ Optional additional context to help Mem understand or categorize the input.
 
 > **input**: `string`
 
-Defined in: [types.ts:133](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L133)
+Defined in: [types.ts:133](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L133)
 
 The primary content to be processed by Mem (e.g., raw text, HTML, a URL).
 
@@ -48,7 +54,7 @@ The primary content to be processed by Mem (e.g., raw text, HTML, a URL).
 
 > `optional` **instructions**: `string`
 
-Defined in: [types.ts:136](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L136)
+Defined in: [types.ts:136](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L136)
 
 Optional natural language instructions for Mem on how to process the input
 (e.g., "Summarize this article", "Add to my reading list").
@@ -59,6 +65,6 @@ Optional natural language instructions for Mem on how to process the input
 
 > `optional` **timestamp**: `string`
 
-Defined in: [types.ts:140](https://github.com/CuriouslyCory/memai-sdk/blob/901eea5e37c1f7d41b2990f0fff59ade65993843/src/types.ts#L140)
+Defined in: [types.ts:140](https://github.com/CuriouslyCory/memai-sdk/blob/2dc092db422a3b9a254f20bc4198878b95379825/src/types.ts#L140)
 
 Optional timestamp (ISO 8601 format) to associate with the mem, if different from the processing time.

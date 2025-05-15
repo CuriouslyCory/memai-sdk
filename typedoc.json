@@ -1,0 +1,5 @@
+{
+  "entryPoints": ["./src/index.ts"],
+  "out": "docs/docs/api", // Output directory for markdown files relative to project root
+  "plugin": ["typedoc-plugin-markdown"]
+} 

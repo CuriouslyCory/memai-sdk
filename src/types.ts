@@ -69,8 +69,8 @@ export interface RequestParams {
 }
 
 /**
- * Represents the standard structure of an error response from the Mem API.
- * @see {@link MemApiErrorClass} for the error class thrown by the SDK.
+ * Represents an error response from the Mem API.
+ * @see {@link MemApiError} for the error class thrown by the SDK.
  */
 export type MemApiError = {
   /** A short string indicating the error type (e.g., 'invalid_request_error'). */

@@ -15,7 +15,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "pnpm run docs:api && tsc",
     "clean": "rimraf dist",
     "dev": "tsc --watch",
     "test": "NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" npx jest",
@@ -25,7 +25,8 @@
     "format:check": "prettier --check \"src/**/*.ts\"",
     "type-check": "tsc --noEmit",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run lint && npm run test"
+    "prepublishOnly": "npm run lint && npm run test",
+    "docs:api": "typedoc"
   },
   "keywords": [
     "mem.ai",
@@ -49,12 +50,14 @@
     "url": "https://github.com/CuriouslyCory/memai-sdk/issues"
   },
   "devDependencies": {
+    "@easyops-cn/docusaurus-search-local": "^0.49.2",
     "@eslint/js": "^9.26.0",
     "@jest/globals": "^29.7.0",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.15.18",
     "@typescript-eslint/eslint-plugin": "^8.32.1",
     "@typescript-eslint/parser": "^8.32.1",
+    "docusaurus-plugin-typedoc": "^1.4.0",
     "eslint": "^9.26.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.4.0",
@@ -62,6 +65,8 @@
     "prettier": "^3.5.3",
     "rimraf": "^6.0.1",
     "ts-jest": "^29.3.3",
+    "typedoc": "^0.28.4",
+    "typedoc-plugin-markdown": "^4.6.3",
     "typescript": "^5.8.3"
   },
   "dependencies": {

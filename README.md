@@ -38,30 +38,30 @@ To use this SDK, you need a Mem.ai API key. You can obtain your API key from you
 Here\'s a quick example to get you started:
 
 ```typescript
-import { MemClient, MemApiError } from \'@curiouslycory/memai-sdk\';
+import { MemClient, MemApiError } from '@curiouslycory/memai-sdk';
 
 // Initialize the client with your API key
-// Replace \'YOUR_MEM_API_KEY\' with your actual key
-const client = new MemClient(\'YOUR_MEM_API_KEY\');
+// Replace 'YOUR_MEM_API_KEY' with your actual key
+const client = new MemClient('YOUR_MEM_API_KEY');
 
 async function createMyNote() {
   try {
     const newNote = await client.createNote({
-      content: "# My First Note\\nHello from the @curiouslycory/memai-sdk!",
-      auto_organize: "Add to my \'SDK Tests\' collection"
+      content: "# My First Note\nHello from the @curiouslycory/memai-sdk!",
+      auto_organize: "Add to my 'SDK Tests' collection"
     });
-    console.log(\'Note Created Successfully!\');
-    console.log(\'ID:\', newNote.id);
-    console.log(\'Title:\', newNote.title);
-    console.log(\'URL:\', newNote.url);
-    console.log(\'Content:\', newNote.content);
+    console.log('Note Created Successfully!');
+    console.log('ID:', newNote.id);
+    console.log('Title:', newNote.title);
+    console.log('URL:', newNote.url);
+    console.log('Content:', newNote.content);
   } catch (error) {
     if (error instanceof MemApiError) {
-      console.error(\`Mem API Error (${error.statusCode}): ${error.message}\`);
+      console.error(`Mem API Error (${error.statusCode}): ${error.message}`);
       // You can check for specific error types
       // if (error instanceof RateLimitError) { ... }
     } else {
-      console.error(\'An unexpected error occurred:\', error);
+      console.error('An unexpected error occurred:', error);
     }
   }
 }

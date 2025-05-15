@@ -77,7 +77,7 @@ This SDK provides convenient methods to interact with the Mem.ai API:
 - **`createNote(options)`**: Directly creates a new note with specified content and organization options.
 - **`deleteNote(id)`**: Deletes a note by its ID.
 
-For detailed information on parameters, return types, and specific error handling for each method, please refer to the TSDoc comments within the SDK code. Full API documentation generated from TSDoc will be available at [TODO: Link to documentation site from Task 11].
+For detailed information on parameters, return types, and specific error handling for each method, please refer to the TSDoc comments within the SDK code. Full API documentation generated from TSDoc will be available at [https://memai-sdk.curiouslycory.com](https://memai-sdk.curiouslycory.com).
 
 ## Error Handling
 
@@ -105,8 +105,6 @@ async function exampleOperation(noteId: string) {
     }
   }
 }
-
-// exampleOperation(\'some-note-id-to-delete\');
 ```
 
 ## Contributing

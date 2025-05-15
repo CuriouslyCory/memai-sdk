@@ -25,6 +25,7 @@
     "format:check": "prettier --check \"src/**/*.ts\"",
     "type-check": "tsc --noEmit",
     "prepare": "npm run build",
+    "prepublishOnly": "npm run lint && npm run test",
     "docs:api": "typedoc"
   },
   "keywords": [

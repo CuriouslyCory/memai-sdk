@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://github.com/CuriouslyCory/memai-sdk/actions/workflows/main.yml/badge.svg)](https://github.com/CuriouslyCory/memai-sdk/actions/workflows/main.yml)
 
-A TypeScript SDK for interacting with the [Mem.ai REST API](https://mem.ai), providing an easy-to-use, type-safe interface for programmatically managing your mems.
+A TypeScript SDK for interacting with the [Mem.ai REST API](https://mem.ai), providing an easy-to-use, type-safe interface for programmatically managing your mems. Find the [full documentation here](https://memai-sdk.curiouslycory.com)
 
 ## Features
 
@@ -47,8 +47,8 @@ const client = new MemClient('YOUR_MEM_API_KEY');
 async function createMyNote() {
   try {
     const newNote = await client.createNote({
-      content: "# My First Note\nHello from the @curiouslycory/memai-sdk!",
-      auto_organize: "Add to my 'SDK Tests' collection"
+      content: '# My First Note\nHello from the @curiouslycory/memai-sdk!',
+      auto_organize: "Add to my 'SDK Tests' collection",
     });
     console.log('Note Created Successfully!');
     console.log('ID:', newNote.id);
@@ -73,9 +73,9 @@ createMyNote();
 
 This SDK provides convenient methods to interact with the Mem.ai API:
 
--   **`memIt(payload)`**: A versatile endpoint to send various types of content (text, HTML, URLs) to Mem with optional processing instructions.
--   **`createNote(options)`**: Directly creates a new note with specified content and organization options.
--   **`deleteNote(id)`**: Deletes a note by its ID.
+- **`memIt(payload)`**: A versatile endpoint to send various types of content (text, HTML, URLs) to Mem with optional processing instructions.
+- **`createNote(options)`**: Directly creates a new note with specified content and organization options.
+- **`deleteNote(id)`**: Deletes a note by its ID.
 
 For detailed information on parameters, return types, and specific error handling for each method, please refer to the TSDoc comments within the SDK code. Full API documentation generated from TSDoc will be available at [TODO: Link to documentation site from Task 11].
 
@@ -115,4 +115,4 @@ Contributions are welcome! Please feel free to open an issue or submit a pull re
 
 ## License
 
-This SDK is licensed under the [MIT License](LICENSE). 
+This SDK is licensed under the [MIT License](LICENSE).
